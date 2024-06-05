@@ -168,7 +168,7 @@ function App() {
           like={like}
         />
         )
-      };
+      }
       <Footer />
     </div>
   );

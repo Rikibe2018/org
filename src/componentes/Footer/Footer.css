@@ -9,9 +9,46 @@
     justify-content: space-between;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.redes img{
-    padding: 0px 15px;
+.redes{
+    display: flex;
+    justify-content:space-around;
+}
+ .redes img{
+    padding: 0px 10px;
+} 
+
+.img-org{
+    width: 100px;
+}
+strong {
+    font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+    .footer{
+        width: 100%;
+        display: flex;
+        padding: 5%;
+        align-items: center;
+        box-sizing: border-box;
+        background-size: cover;
+        background-position: center;
+        justify-content: space-between;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    
+    .redes img{
+        width: 50px;
+        padding: 0px 15px;
+    }
+    .img-org{
+        width: 200px;
+    }
+    strong {
+        font-size: 20px;
+    }
 }

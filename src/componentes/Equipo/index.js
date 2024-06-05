@@ -19,7 +19,7 @@ const Equipo = (props) => {
              }}
              className='input-color'
              />
-            <h3 style={{ estiloTitulo,borderColor: colorPrimario }}>{titulo}</h3>
+            <h4 style={{ estiloTitulo,borderColor: colorPrimario }}>{titulo}</h4>
             <div className="colaboradores">
                 {
                     colaboradores.map((colaborador, index) => <Colaborador
