@@ -5,7 +5,7 @@
 
 .campo label{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     display: block;
     margin-bottom: 8px;
@@ -16,13 +16,28 @@
     background-color: #FFFFFF;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
     border: none;
-    padding: 30px 20px;
+    padding: 20px 20px;
     outline-color:#6278F7;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
 }
 
 .campo-color input{
     height: 40px;
     padding: 5px 20px ;
+}
+
+@media screen and (min-width: 768px) {
+
+    
+    .campo label{
+        font-size: 18px;
+    }
+    
+    .campo input{
+        padding: 30px 20px;
+        font-size: 16px;
+    }
+    
+
 }

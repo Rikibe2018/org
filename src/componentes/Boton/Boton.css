@@ -3,13 +3,23 @@
     border-radius: 10px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    padding: 24px 32px;
+    padding: 18px 23px;
     border :none;
     color: #ffffff;
-    margin: 32px 0;
+    margin: 22px 0;
     cursor: pointer;
 }
 
 .boton:hover{
     color:#95FFD4;
+}
+
+@media screen and (min-width: 768px) {
+    .boton {   
+        padding: 24px 32px;
+        margin: 32px 0;
+        cursor: pointer;
+    }
+    
+   
 }
